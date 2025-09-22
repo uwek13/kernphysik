@@ -1,0 +1,104 @@
+#VRML V2.0 utf8
+WorldInfo {
+ title "atom"
+ info [
+  "This VRML World was created with Spazz3D, a VRML 97 authoring tool"
+  "www.spazz3d.com"
+ ]
+}
+DEF dad_GROUND Transform {
+ children [
+  DEF GROUND Group {
+   children [
+    DEF dad_Metallatom Transform {
+     children [
+      DEF Metallatom Group {
+       children [
+        DEF dad_Atom Transform {
+         children [
+          DEF Atom Shape {
+           appearance Appearance {
+            material DEF Red_mat Material {
+             ambientIntensity 0.200
+             shininess 0.200
+             diffuseColor 1.0 0.0 0.0
+             emissiveColor 0.0 0.0 0.0
+             specularColor 0.0 0.0 0.0
+            }
+           }
+           geometry Sphere {
+            radius 1.000
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
+DEF thermische_schwingung_kalt TimeSensor {
+ cycleInterval 2.000
+ loop TRUE
+ startTime  -1
+}
+DEF thermische_schwingung_kalt_pos0 PositionInterpolator {
+ key [
+  0.0 0.25 0.5 0.75 1.0
+ ]
+ keyValue [
+  0.0 0.0 0.0
+  0.792 -0.761 0.0
+  -1.204 0.41189 0.76042
+  0.28516 -0.72874 -0.57032
+  0.0 0.0 0.0
+ ]
+}
+DEF Script_thermische_schwingung_kalt Script {
+  field    SFNode      tproc     USE  thermische_schwingung_kalt
+ field    SFBool state     FALSE
+ field    SFTime pause     0
+ eventIn  SFTime startAt0
+ eventOut SFTime triggerStart
+ eventOut SFTime triggerStop
+ eventOut SFTime triggerStartInt
+ eventIn  SFBool activated
+ eventIn  SFTime cycle
+ directOutput TRUE
+ url "vrmlscript:
+ function activated( active, curtime ) {
+  if( active ) {
+   triggerStart = curtime;
+   state = TRUE;
+  }
+  else {
+   triggerStop = curtime;
+   state = FALSE;
+  }
+ }
+ function cycle( curtime ) {
+  triggerStartInt = curtime;
+ }
+ function startAt0( stime ) {
+  state = TRUE;
+  tproc.set_startTime = stime;
+  tproc.enabled = TRUE;
+  pause = 0;
+ }
+ "
+}
+DEF spazz_init TimeSensor {
+  cycleInterval 0.1
+  loop TRUE
+}
+ROUTE spazz_init.cycleTime TO Script_thermische_schwingung_kalt.startAt0
+ROUTE spazz_init.cycleTime TO spazz_init.stopTime
+ROUTE thermische_schwingung_kalt.fraction_changed TO thermische_schwingung_kalt_pos0.set_fraction
+ROUTE thermische_schwingung_kalt_pos0.value_changed TO dad_Atom.set_translation
+ROUTE thermische_schwingung_kalt.isActive TO Script_thermische_schwingung_kalt.activated
+
+ROUTE thermische_schwingung_kalt.cycleTime TO Script_thermische_schwingung_kalt.cycle
+

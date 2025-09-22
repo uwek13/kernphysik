@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>AK</dc:creator>
+    <dc:title>Aufbau von Atomen</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>Aufbau von Atomen</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Aus welchen Bausteinen besteht der Atomkern?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Elektronen und Protonen</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Protonen und Neutronen</text><feedback>Sehr gut !!!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Elektronen und Neutronen</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Wie viele Protonen befinden sich im Kern des Elements Sauerstoff?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>16</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>keine</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>8</text><feedback>Sehr gut !!!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Welche elektrische Ladung haben die Protonen im Atomkern?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>keine, sie sind elektrisch neutral</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>positive Ladung</text><feedback>Sehr gut !!!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>negative Ladung</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Was gibt die Massenzahl eines Elementes an?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Steht f&amp;#x00FC;r die Summe von Protonen und Neutronen im Kern</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>beschreibt, wie gef&amp;#x00E4;hrlich ein chemisches Element ist</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>hat keine physikalische Bedeutung, die Massenzahl ist nur f&amp;#x00FC;r die Chemie relevant</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Wo befinden sich die Elektronen im Atom?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>im Atomkern</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>man kann nicht genau sagen wo sie sich befinden, da alles im mikroskopischen Bereich abl&amp;#x00E4;uft</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>in der Atomh&amp;#x00FC;lle</text><feedback>Sehr gut !!!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Wie viele Elektronen besitzt ein Atom des Elementes Blei in der Atomh&amp;#x00FC;lle?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>207</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>82</text><feedback>Sehr gut !!!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Welche der folgenden Aussagen stimmt?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>in einem Atom ist die Anzahl der Elektronen gleich der Anzahl der Protonen</text><feedback>Sehr gut !!!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>in einem Atom ist die Anzahl der Protonen gleich der Anzahl der Neutronen</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>In einem Atom ist die Anzahl der Neutronen gleich der Anzahl der Elektronen</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>In welchem Gr&amp;#x00F6;&amp;#x00DF;enverh&amp;#x00E4;ltnis steht der Atomkern zur Atomh&amp;#x00FC;lle?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>der Durchmesser der Atomh&amp;#x00FC;lle ist ca. 10 000 mal gr&amp;#x00F6;&amp;#x00DF;er als der Durchmesser des Atomkerns</text><feedback>Sehr gut !!!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>der Durchmesser des Atomkerns ist ca. 10 000 mal gr&amp;#x00F6;&amp;#x00DF;er als der Durchmesser der Atomh&amp;#x00FC;lle</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Atomkern und Atomh&amp;#x00FC;lle haben nahezu den gleichen Durchmesser</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Wie wird die Bewegung der Elektronen um den  Kern beschrieben?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>die Elektronen bewegen sich nicht, die sind in Ruhe</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>man stellt sich die Bewegung auf Kreisbahnen vor, etwa wie die Planeten die sich um die Sonne bewegen</text><feedback>Sehr gut !!!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>die Bewegungsform ist noch nicht erforscht worden</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Wie werden die Kernbausteine eines Atomkerns genannt?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Isotope</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Elemente</text><feedback>Nochmal &amp;#x00FC;berlegen</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Nukleonen (Neutronen und Protonen)</text><feedback>Sehr gut !!!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Eine &amp;#x00DC;bung mit JQuiz</exercise-subtitle>
+<instructions>Die richtige(n) Antwort(en) anklicken bzw. eingeben.</instructions>
+<guess-correct>Richtig!</guess-correct>
+<guess-incorrect>Leider falsch!</guess-incorrect>
+<partly-incorrect>Die Antwort ist teilweise falsch: </partly-incorrect>
+<enter-a-guess>Bitte eine Vermutung eingeben:</enter-a-guess>
+<next-correct-letter>N&amp;#x00E4;chster richtiger Buchstabe: </next-correct-letter>
+<correct-answers>Richtige L&amp;#x00F6;sungen: </correct-answers>
+<show-answer-caption>L&amp;#x00F6;sung</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>naechste.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>0</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>1</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Punktestand:</your-score-is>
+<correct-indicator>:-)</correct-indicator>
+<incorrect-indicator>X</incorrect-indicator>
+<correct-first-time>Beim ersten Mal richtig gel&amp;#x00F6;ste Fragen: </correct-first-time>
+<completed-so-far>Bisher beantwortete Fragen: </completed-so-far>
+<exercise-completed>Die &amp;#x00DC;bung ist beendet.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Ihre Zeit ist vorbei!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Inhalt</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>1</include-back>
+<contents-url>inhalt.htm</contents-url>
+<graphic-url>background.gif</graphic-url>
+<font-face>Geneva,Arial</font-face>
+<font-size>small</font-size>
+<page-bg-color>#FFFFFF</page-bg-color>
+<title-color>#000033</title-color>
+<ex-bg-color>#BBBBEE</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000066</nav-bar-color>
+<formmail-url>http://your.server.address/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourplace.com</email>
+<name-please>Bitte Ihren Namen angeben:</name-please>
+<user-string-1>um</user-string-1>
+<user-string-2>dois</user-string-2>
+<user-string-3>tr&amp;#x00EA;s</user-string-3>
+<header-code></header-code>
+<correct-first-time>Beim ersten Mal richtig gel&amp;#x00F6;ste Fragen: </correct-first-time>
+<check-caption>Pr&amp;#x00FC;fen</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Tipp</hint-caption>
+<show-all-questions-caption>Alle Fragen anzeigen</show-all-questions-caption>
+<show-one-by-one-caption>Fragen einzeln anzeigen</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

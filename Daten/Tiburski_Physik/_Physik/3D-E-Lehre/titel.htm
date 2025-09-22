@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="de">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Die strömende Elektrizität</title>
+<style type="text/css">
+     .aussenabstand {margin-top:0px; margin-left:0px; margin-bottom:0px; margin-right:0px;}
+</style>
+<script LANGUAGE="JavaScript1.1" TYPE="text/javascript">
+var RollGeschwindigkeit = 75 // = 75 Millisekunden
+var RollNachricht       = ""
+var RollTimerID         = null
+var RollTimerLaeuft     = false
+
+function Roll(pos)
+{
+  if(++pos > RollNachricht.length)
+    pos = 0
+  status          = RollNachricht.substring(pos, RollNachricht.length)
+  RollTimerLaeuft = true
+  RollTimerID     = setTimeout("Roll(" + pos + ")", RollGeschwindigkeit)
+}
+
+function StopRolltext()
+{
+  if(RollTimerLaeuft)
+  {
+    status = ""
+    clearTimeout(RollTimerID)
+  }
+  RollTimerLaeuft = false
+}
+
+function StartRolltext(text)
+{
+  StopRolltext()
+  RollNachricht = ""
+  for(i = 0; i < 50; i++)
+    RollNachricht += "     "
+  RollNachricht += text
+  Roll(0)
+}
+</script>
+</head>
+
+<body background="hg_ob_li.gif" onLoad="StartRolltext('Diese Seiten sind Teil der virtuellen Dorfschule!!!    www.cybernautenshop.de')">
+<blockquote>
+<p class="aussenabstand" align="left"><br>
+<font size="3">Die strömende Elektrizität mit Paul erkunden!</font>
+<br><font size="2">Ein interaktiver Internet-Lernkurs zum Thema elektrischer Strom, elektrische Stromstärke und elektrische Spannung!
+<br>Durchgehend illustriert mit Bildern und 3D-Animationen von J. Tiburski.</font>
+</blockquote>
+</body>
+</html>

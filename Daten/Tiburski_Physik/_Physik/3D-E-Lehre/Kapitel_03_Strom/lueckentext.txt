@@ -1,0 +1,14 @@
+In elektrischen Leitern stehen frei bewegliche Ladungsträger (Metallbindung -> Elektronen) für die Leitung von Elektrizität zur Verfügung. Aber diese frei beweglichen Ladungsträger führen nur thermische Schwingungen aus. Damit übertragen sie noch keine elektrischen Ladungen!
+
+Erst müssen Bedingungen geschaffen werden, welche die "freien" Elektronen veranlassen, sich in eine gewünschte Richtung zu bewegen. Dazu benutzt man die Eigenschaft von elektrischen Ladungen sich abzustossen (gleichnamige Ladungen) oder sich anzuziehen (ungleichnamige Ladungen)!
+
+Wenn man an einen solchen Leiter an verschiedenen Enden einen Pluspol (+) und einen Minuspol (-) anlegt, dann entsteht im Innern des Leiters ein elektrisches Feld, welches die negativ geladenen Elektronen in Richtung des  Pluspoles (positive Ladungen!) zieht! Die Elektronen bewegen sich nun gerichtet auf den Pluspol zu, da sie von diesem angezogen werden. Vom Minuspol werden sie gleichzeitig abgestossen. Also "fliessen" alle frei beweglichen Elektronen des Leiters vom Minuspol zum Pluspol!
+
+Betrachten wir nun eine Glühlampe, die mittels Leitungen an eine Flachbatterie angeschlossen wird. Der Schalter sorgt dafür, dass man den Stromfluss ein- und auch wieder ausschalten kann.
+
+Solange der Schalter geöffnet ist, ist auch der elektrische Stromkreis geöffnet. Es fliesst kein elektrischer Strom! Sobald jedoch der Schalter betätigt wird - und somit der elektrische Schaltkreis geschlossen wird - werden die frei beweglichen Ladungsträger (Elektronen) vom Pluspol der Spannungsquelle (Batterie) angezogen und vom Minuspol abgestossen! Folglich bewegen sie sich gerichtet von Minus nach Plus. Somit fliesst "elektrischer Strom" und die Lampe leuchtet!
+
+Definition: 
+Als elektrischen Strom bezeichnen wir die gerichtete Bewegung elektrischer Ladungsträger.
+
+Im Allgemeinen bewegen sich frei Elektronen vom Minuspol zum Pluspol einer Spannungsquelle.

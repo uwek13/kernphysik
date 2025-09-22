@@ -1,0 +1,79 @@
+<html>
+<head>
+<style type="text/css">
+
+.drag{
+position:absolute;
+cursor:hand;
+z-index: 100;
+}
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Drag and Drop Script: © Dynamic Drive (http://www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+var dragobject={
+z: 0, x: 0, y: 0, offsetx : null, offsety : null, targetobj : null, dragapproved : 0, test: 0,
+initialize:function(){
+document.onmousedown=this.drag
+document.onmouseup=function(){this.dragapproved=0}
+},
+drag:function(e){
+var evtobj=window.event? window.event : e
+this.targetobj=window.event? event.srcElement : e.target
+if (this.targetobj.className=="drag"){
+this.dragapproved=1
+if (isNaN(parseInt(this.targetobj.style.left))){this.targetobj.style.left=10}
+if (isNaN(parseInt(this.targetobj.style.top))){this.targetobj.style.top=15}
+this.offsetx=parseInt(this.targetobj.style.left)
+this.offsety=parseInt(this.targetobj.style.top)
+this.x=evtobj.clientX
+this.y=evtobj.clientY
+
+
+
+if (evtobj.preventDefault)
+evtobj.preventDefault()
+document.onmousemove=dragobject.moveit
+}
+},
+moveit:function(e){
+
+
+if (this.x>230){
+if (this.x<270){
+if (this.y>190){
+if (this.y<220){
+alert("Richtig! Hier gehört das Messgerät hin!");
+this.x=0;
+parent.location = "lsg2_1.htm";
+}}}}
+
+
+
+
+var evtobj=window.event? window.event : e
+if (this.dragapproved==1){
+this.targetobj.style.left=this.offsetx+evtobj.clientX-this.x+"px"
+this.targetobj.style.top=this.offsety+evtobj.clientY-this.y+"px"
+return false
+}
+}
+}
+
+dragobject.initialize()
+
+</script>
+<title>Übung zum Einbau von Messgeräten</title>
+</head>
+<body>
+<img src="v_messer_transp.gif" class="drag">
+<img border="0" src="aufg1.gif" width="500" height="400">
+</body>
+</html>

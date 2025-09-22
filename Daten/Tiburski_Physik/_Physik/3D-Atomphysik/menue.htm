@@ -1,0 +1,86 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta http-equiv="Content-Language" content="de">
+   <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+   <meta name="ProgId" content="FrontPage.Editor.Document">
+   <title>Menue-Seite</title>
+   <base target="rechts">
+   
+<style type="text/css">
+  #JetSet {
+    position:absolute; top:0; left:0;
+    margin-left:0px; margin-top:0px;
+  }
+   </style> 
+   
+</head>
+<body bgcolor="#FFFFCC" ID="JetSet" >
+<center>
+<a href="titel.htm"><img BORDER=0 src="atom_bahn_transparent.gif" alt="Zurück zum Titel" width="152" height="152"></a>
+<br>
+<a href="atomaufbau.htm" onMouseOver="return show_image('atom_menue_1')" onMouseOut="hide_image('atom_menue_1')">
+	<img SRC="atom_menue_1.gif" NAME="atom_menue_1" alt="Atommodell, Ionen und Isotope" BORDER=0 width="100" height="100">
+</a>
+<br>
+<a href="spontanzerfall.htm" onMouseOver="return show_image('atom_menue_2')" onMouseOut="hide_image('atom_menue_2')">
+	<img SRC="atom_menue_2.gif" NAME="atom_menue_2" alt="Spontanzerfall und Halbwertzeit" BORDER=0 width="100" height="100">
+</a>
+<br>
+<a href="kernspaltung.htm" onMouseOver="return show_image('atom_menue_3')" onMouseOut="hide_image('atom_menue_3')">
+	<img SRC="atom_menue_3.gif" NAME="atom_menue_3" alt="Kernumwandlungen" BORDER=0 width="100" height="100">
+</a>
+<br>
+<a href="atomenergie.htm" onMouseOver="return show_image('atom_menue_4')" onMouseOut="hide_image('atom_menue_4')">
+	<img SRC="atom_menue_4.gif" NAME="atom_menue_4" alt="Atomenergie" BORDER=0 width="100" height="100">
+</a>
+<br>
+<br>
+<a href="plugin_atome.html" onMouseOver="return show_image('vrml_animated')" onMouseOut="hide_image('vrml_animated')">
+	<img SRC="vrml_animated.gif" NAME="vrml_animated" alt="Infos zum PlugIn" BORDER=0 width="64" height="64">
+</a>
+<br>
+</center>
+
+<script LANGUAGE="JavaScript1.1" TYPE="text/javascript">
+// Dynamische Schaltflaechen
+//
+// Vorabladen der Bilder
+var Img = new Array()
+// Objekt Bild
+function doc_image(dateiname)
+{
+  this.normal     = new Image()
+  this.high       = new Image()
+  this.normal.src = dateiname + ".gif"
+  this.high.src   = dateiname + "_high.gif"
+  return this
+}
+// Dateiinformationen
+function load_images(name, dateiname)
+{
+  Img[name] = new doc_image(dateiname)
+}
+// Bild zeigen
+function show_image(name)
+{
+  document[name].src = Img[name].high.src
+  return true
+}
+// Bild verstecken
+function hide_image(name)
+{
+  document[name].src = Img[name].normal.src
+}
+// Bild mit dem normalen Namen ist das Standardbild,
+// "_high" das aktive, wenn der Mauszeiger darueber ist.
+// Laden der Bilder
+load_images("atom_menue_1", "atom_menue_1")
+load_images("atom_menue_2", "atom_menue_2")
+load_images("atom_menue_3", "atom_menue_3")
+load_images("atom_menue_4", "atom_menue_4")
+load_images("vrml_animated", "vrml_animated")
+</script>
+</body>
+</html>
